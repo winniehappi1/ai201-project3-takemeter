@@ -1,3 +1,4 @@
+# TakeMeter Planning
 ## Community
 
 I chose r/LetsTalkMusic because it is a discussion-focused music community where users share opinions about artists, albums, genres, and trends in music. Posts range from emotional reactions to detailed arguments supported by examples and comparisons, making it a good community for studying discourse quality.
