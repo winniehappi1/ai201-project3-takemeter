@@ -90,3 +90,9 @@ This behavior was most likely caused by class imbalance in the dataset. The data
 Although the model achieved an accuracy of 65.79%, the confusion matrix shows that it did not learn strong decision boundaries between the three categories. Instead, it primarily learned the characteristics of the dominant class. This explains why the improvement over the Groq baseline was relatively small (+2.63%).
 
 To improve performance in future work, I would collect additional hot_take and reaction examples to create a more balanced dataset. I would also experiment with class weighting, oversampling minority classes, and additional hyperparameter tuning to encourage the model to learn distinctions between all labels rather than relying on the majority class.
+
+## Baseline Reflection
+
+The Groq zero-shot baseline achieved an accuracy of 63.16% on the test set. The baseline performed reasonably well despite having no task-specific training, suggesting that the label definitions were relatively intuitive.
+
+However, some posts were difficult to classify because the boundaries between analysis, hot_take, and reaction are not always clear. Posts that contained both strong opinions and supporting evidence were especially challenging. I expected that a fine-tuned model trained on examples from r/LetsTalkMusic would learn these distinctions more effectively than the baseline model.
