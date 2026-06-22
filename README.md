@@ -313,3 +313,9 @@ ai201-project3-takemeter/
 └── notebooks/
     └── ai201_project3_takemeter.ipynb
 ```
+# Demo Video
+
+A walkthrough of the TakeMeter project, including the dataset, label definitions, model training process, evaluation results, and error analysis.
+
+Loom Recording:
+https://www.loom.com/share/f68dc9ff42e54794bd5337f4e74b03ed
